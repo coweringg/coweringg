@@ -31,7 +31,7 @@ I enjoy working in teams, learning from other developers, and facing new technic
 
 ### 🎓 Course Marketplace Platform (Academic Project)
 
-A full-stack web platform inspired by LinkedIn, focused on online courses and knowledge sharing.
+A full-stack web platform focused on online courses and knowledge sharing.
 
 **Main features:**
 - Students can purchase subscription plans that grant virtual coins  
@@ -61,17 +61,38 @@ A full-stack web platform inspired by LinkedIn, focused on online courses and kn
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,redux,typescript,javascript,tailwind,bootstrap,prisma,nodejs,express,nestjs,mysql,java,git,github&theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,redux,typescript,javascript,tailwind,prisma,nodejs,express,nestjs,mysql,java,git,github&theme=light" />
 </p>
 
-**Also familiar with:**
-- RESTful APIs  
+**Frontend**
+- React, Next.js  
+- TypeScript, JavaScript  
+- Tailwind CSS  
+
+**State Management**
+- Redux  
+- React Context API  
+
+**Backend**
+- Node.js, Express  
+- NestJS  
+- Prisma ORM  
+
+**Databases**
+- MySQL  
+
+**Other**
+- Git & GitHub  
+- Java  
+
+### 🧠 Also familiar with
+- Designing and consuming RESTful APIs  
 - Authentication & Authorization (JWT, password hashing)  
-- ESLint & code quality tools  
-- Responsive design  
-- Basic UX/UI collaboration  
-- Docker (basic usage)  
-- Agile methodologies (Scrum)  
+- Code quality tools (ESLint, formatting best practices)  
+- Responsive and mobile-first design  
+- Collaboration with basic UX/UI principles  
+- Docker (basic usage for development)  
+- Agile methodologies (Scrum)
 
 ---
 
