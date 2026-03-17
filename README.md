@@ -92,6 +92,7 @@ OpenAI API · Paddle · Agile/Scrum
 ## 📫 Contact
 
 - 💼 LinkedIn: https://www.linkedin.com/in/gonzalomendezdev
+- 📧 Email: gonzalomendezdev@gmail.com
 
 ---
 
