@@ -1,122 +1,98 @@
 <h1 align="center">Hi 👋, I'm Gonzalo Mendez</h1>
-<h3 align="center">Junior Full-Stack Developer</h3>
+<h3 align="center">Full Stack Developer</h3>
 
 <p align="center">
   <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="180"/>
 </p>
 
 <p align="center">
-  💻 Passionate about web development <br/>
-  🌱 Continuously learning and improving <br/>
-  🚀 Actively looking for junior or trainee opportunities
+  💻 Building real products from frontend to backend <br/>
+  🤖 Currently building a LegalTech SaaS powered by AI <br/>
+  🚀 Open to remote or hybrid opportunities
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a **Junior Full-Stack Developer** with a background in **Information Technologies** and hands-on experience gained through a professional internship.
+Full Stack Developer with real production experience and an 
+active SaaS product in the U.S. legal market.
 
-I have worked on the development and maintenance of web applications using **TypeScript** as my main language, with **React** on the frontend and **Node.js / Express** on the backend. I have experience building and consuming **REST APIs**, integrating **SQL/MySQL databases**, and working with **Git** in collaborative environments using pull requests.
+I work across the full stack — **React** and **TypeScript** on 
+the frontend, **Node.js / Express / Java** on the backend, 
+**REST APIs**, **SQL and NoSQL databases**, and **JWT 
+authentication**. I've shipped code in professional environments 
+under Agile/Scrum methodologies.
 
-Additionally, I participated in **After Sales** tasks, maintaining and improving applications developed in **Java**, focusing on bug fixing, system stability, and continuous improvement.
-
-I enjoy working in teams, learning from other developers, and facing new technical challenges. My goal is to continue growing as a full-stack developer while applying best practices and strengthening my technical foundation.
-
-**I enjoy building maintainable solutions that solve real problems.**
+Currently building **LawCaseAI** — a LegalTech SaaS for U.S. 
+attorneys that processes legal documents with AI, generates 
+summaries, identifies case strengths, and lets attorneys chat 
+with the AI about their case.
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
-### 🎓 Course Marketplace Platform (Academic Project)
+### ⚖️ LawCaseAI — LegalTech SaaS for U.S. Attorneys
+> In active development — 2026
 
-A full-stack web platform focused on online courses and knowledge sharing.
+Attorneys upload legal documents, get AI-powered summaries, 
+identify case strengths, and chat with the AI about the file.
 
-**Main features:**
-- Students can purchase subscription plans that grant virtual coins  
-- Coins are used to buy courses from instructors  
-- Coins spent by students are transferred to instructors  
-- Instructors can request payouts based on accumulated coins  
-- Role-based system: Student / Instructor  
-- Course creation and management  
+**Stack:**
+- **Frontend:** Next.js 16, React 19, TypeScript, Zustand, 
+Framer Motion, TailwindCSS
+- **Backend:** Express, Node.js, TypeScript, MongoDB, 
+OpenAI API, JWT, Cloudflare R2, Paddle (payments), 
+Helmet + Zod
 
-**Tech stack:**
-- Frontend: React, TypeScript  
-- Backend: Node.js, Express  
-- Database: MySQL  
-- Authentication and authorization  
-- REST API architecture  
-- Git for version control  
+---
 
-**What I learned:**
-- Designing business logic and user flows  
-- Handling transactions and virtual balances  
-- Structuring a full-stack application  
-- Working with relational databases  
-- Applying clean code principles and best practices  
+### 🎓 Paideia — Education Marketplace
+> Academic project — ANIMA 2024 | Private repository
+
+Credit-based platform where students buy classes from 
+teachers and teachers redeem credits for real money.
+
+**Stack:** React · Vite · JavaScript · Express · JWT · 
+Prisma · MySQL
 
 ---
 
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,redux,typescript,javascript,tailwind,prisma,nodejs,express,nestjs,mysql,java,git,github&theme=light" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,redux,typescript,javascript,tailwind,prisma,nodejs,express,nestjs,mysql,mongodb,java,docker,git,github&theme=light" />
 </p>
 
-**Frontend**
-- React, Next.js  
-- TypeScript, JavaScript  
-- Tailwind CSS  
+**Frontend:** React · Next.js · TypeScript · Redux · 
+Tailwind CSS · JavaScript (ES6+)
 
-**State Management**
-- Redux  
-- React Context API  
+**Backend:** Node.js · Express · NestJS · Java · 
+Prisma ORM · REST APIs
 
-**Backend**
-- Node.js, Express  
-- NestJS  
-- Prisma ORM  
+**Databases:** MySQL · MongoDB
 
-**Databases**
-- MySQL  
+**Tools:** Git · GitHub · Docker · Postman · Figma · 
+Jira · AWS
 
-**Other**
-- Git & GitHub  
-- Java  
-
-### 🧠 Also familiar with
-- Designing and consuming RESTful APIs  
-- Authentication & Authorization (JWT, password hashing)  
-- Code quality tools (ESLint, formatting best practices)  
-- Responsive and mobile-first design  
-- Collaboration with basic UX/UI principles  
-- Docker (basic usage for development)  
-- Agile methodologies (Scrum)
-
----
-
-## 🎯 Goals
-
-- Strengthen my full-stack development skills  
-- Gain experience in professional and collaborative environments  
-- Apply clean code principles and best practices  
-- Continue learning new technologies and tools  
+**Also:** JWT · Zod · Helmet · Cloudflare R2 · 
+OpenAI API · Paddle · Agile/Scrum
 
 ---
 
 ## ✨ Fun Touch
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&color=00BFFF&center=true&vCenter=true&width=500&lines=Junior+Full-Stack+Developer;Passionate+about+Web+Development;Always+Learning+New+Technologies;Open+to+Opportunities+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&color=00BFFF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Building+LegalTech+with+AI;React+%C2%B7+Node.js+%C2%B7+TypeScript;Open+to+Remote+Opportunities+🚀" />
 </p>
 
 ---
 
 ## 📫 Contact
 
-- 💼 LinkedIn: https://www.linkedin.com/in/gonzalomendezdev  
+- 💼 LinkedIn: https://www.linkedin.com/in/gonzalomendezdev
 
 ---
 
-⭐️ Thanks for visiting my GitHub profile!
+⭐️ Thanks for visiting my profile!
