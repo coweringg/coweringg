@@ -43,7 +43,3 @@ I’m focused on clean interfaces, reliable APIs, authentication, databases, and
 **Also:** JWT · Zod · Helmet · Cloudflare R2 · OpenRouter API · Paddle · Scrum/Agile
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=coweringg&show_icons=true&hide_border=true" />
-</p>
