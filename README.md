@@ -1,45 +1,67 @@
-<h1 align="center">Hi 👋, I'm Gonzalo Mendez</h1>
+<p align="left"><img src="assets/wordmark-on-dark.svg#gh-dark-mode-only" width="100%" alt="Gonzalo Méndez" /><img src="assets/wordmark-on-light.svg#gh-light-mode-only" width="100%" alt="" /></p>
 
-<h3 align="center">Full Stack Developer</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&pause=900&color=00BFFF&center=true&vCenter=true&width=650&lines=Building+complete+web+applications;React+%C2%B7+TypeScript+%C2%B7+Node.js+%C2%B7+Java;Frontend+polish+%2B+reliable+APIs;Based+in+Montevideo%2C+Uruguay" />
-</p>
-
-<p align="center">
-  <a href="https://gonzalomendez.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/gonzalomendezdev">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:gonzalomendezdev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<p align="left"><samp>AI SYSTEMS &amp; TRUST BOUNDARIES &nbsp;·&nbsp; MONTEVIDEO, UY &nbsp;·&nbsp; <a href="https://gonzalomendez.vercel.app/">SITE</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/gonzalomendezdev">LINKEDIN</a> &nbsp;·&nbsp; <a href="mailto:gonzalomendezdev@gmail.com">EMAIL</a></samp></p>
 
 ---
 
-## About
+Gonzalo Méndez is a full-stack developer in Montevideo, Uruguay. His work keeps landing on the same problem: **data crossing a boundary it shouldn't.** [Oclushion](https://github.com/coweringg/Oclushion) sanitizes prompts and repository context locally — PII, secrets, API keys, payment data — before any external model sees them. [LawCaseAI](https://github.com/coweringg/LawCaseAI) accepts a payment only after the webhook signature verifies.
 
-Full Stack Developer based in Montevideo, Uruguay.
+Currently building **Oclushion**, an AI-native desktop IDE, and the Sano Shield privacy layer inside it.
 
-I build complete web applications across frontend and backend, working with React, TypeScript, Node.js and Java.
+## Selected work
 
-I’m focused on clean interfaces, reliable APIs, authentication, databases, and product-oriented user experiences.
+### [Oclushion](https://github.com/coweringg/Oclushion) — AI-native desktop IDE
+
+A Tauri desktop shell over a pnpm/Turborepo monorepo: 12 packages, a control API, a public web surface, and an optional browser companion.
+
+The interesting part is the trust model. **Sano Shield** runs a local sanitization-and-restoration pipeline over prompts and repo context, so nothing sensitive reaches an external provider. AI-written code and shell commands land in **Safe Diff quarantine** and cannot touch the workspace until a human approves them. Marketplace artifacts are rejected unless they match the SHA-256 declared by the remote catalog. Updater signing keypairs are generated per release — nothing ships under a placeholder key.
+
+Local topology is real infrastructure, not mocks: PostgreSQL, Redis, a Python PII service, the shield proxy, and the structured-data gateway, all under Docker Compose. `SECURITY.md`, gitleaks, Renovate, Playwright, and a `typecheck / lint / test / build` gate.
+
+```bash
+pnpm install && docker compose up -d && pnpm dev
+```
+
+### [LawCaseAI](https://github.com/coweringg/LawCaseAI) — AI-assisted legal document review
+
+Next.js 16 · React 19 · Express · MongoDB. [Live demo](https://lawcaseai-gamma.vercel.app/).
+
+Case chat is grounded in whatever the matter actually contains — PDFs, transcripts, audio, video on Cloudflare R2 — with per-organization AI cost telemetry so spend is attributable. Multi-tenant organizations with seat-based licensing and Admin/Member/Viewer roles. Paddle webhooks are processed **only** on SDK signature verification, payloads are sanitized against NoSQL injection and XSS, and Helmet sets a real CSP.
+
+### [portfolio](https://github.com/coweringg/portfolio) — personal site
+
+Vite + TypeScript. The site this README links to: [gonzalomendez.vercel.app](https://gonzalomendez.vercel.app/).
+
+## Recently
+
+<!-- feed:start -->
+
+- [Oclushion](https://github.com/coweringg/Oclushion) · TypeScript — 2026-07-28
+- [LawCaseAI](https://github.com/coweringg/LawCaseAI) · TypeScript — 2026-05-20
+- [portfolio](https://github.com/coweringg/portfolio) · TypeScript — 2026-05-17
+<!-- feed:end -->
+
+## Stack
+
+<samp>TypeScript · React · Next.js · Node.js · Express · Java · Tauri · Turborepo · PostgreSQL · MongoDB · MySQL · Docker · Playwright</samp>
+
+<details>
+<summary>Everything else</summary>
+
+**Interface** Tailwind CSS · TanStack Query · Framer Motion · Vite
+
+**Data** Mongoose · Redis · OpenRouter · Zod
+
+**Security** JWT · Helmet · gitleaks · rate limiting · CSP · payload sanitization · SHA-256 integrity · signed updaters
+
+**Platform** Docker Compose · Vercel · Render · Cloudflare R2 · Paddle · Tauri updater
+
+**Practice** REST API design · Git · GitHub Actions · Renovate · Postman · Figma · Jira · Scrum
+
+</details>
 
 ---
 
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,nodejs,express,mongodb,mysql,java,docker,git,github,figma&theme=light" />
-</p>
-
-**Frontend:** React · Next.js · TypeScript · Tailwind CSS  
-**Backend:** Node.js · Express · Java · REST APIs  
-**Databases:** MongoDB · MySQL  
-**Tools:** Git · GitHub · Docker · Postman · Figma · Jira  
-**Also:** JWT · Zod · Helmet · Cloudflare R2 · OpenRouter API · Paddle · Scrum/Agile
-
----
+<sub>Every repository, release, and merged pull request above is fetched from the GitHub API by
+<a href="https://github.com/coweringg/coweringg/blob/main/.github/workflows/build-readme.yml">a scheduled workflow</a>
+— not typed by hand. <a href="mailto:gonzalomendezdev@gmail.com">gonzalomendezdev@gmail.com</a></sub>
