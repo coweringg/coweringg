@@ -35,10 +35,6 @@ Vite + TypeScript. The site this README links to: [gonzalomendez.vercel.app](htt
 ## Recently
 
 <!-- feed:start -->
-
-- [Oclushion](https://github.com/coweringg/Oclushion) · TypeScript — 2026-07-28
-- [LawCaseAI](https://github.com/coweringg/LawCaseAI) · TypeScript — 2026-05-20
-- [portfolio](https://github.com/coweringg/portfolio) · TypeScript — 2026-05-17
 <!-- feed:end -->
 
 ## Stack
