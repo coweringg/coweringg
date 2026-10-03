@@ -1,2 +1,5 @@
 # local verification harness, not part of the published profile
 .verify/
+
+# generated preview, opens from disk
+preview.html
